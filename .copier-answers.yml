@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: v1.3.4
+_src_path: gh://lincc-frameworks/python-project-template
+author_email: drew.oldag@gmail.com
+author_name: Drew Oldag
+create_example_module: false
+custom_install: true
+include_notebooks: false
+mypy_type_checking: none
+package_name: heybuddy
+preferred_linter: black
+project_license: none
+project_name: heybuddy
+use_gitlfs: none
+use_isort: true
