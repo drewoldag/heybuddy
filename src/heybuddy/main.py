@@ -46,6 +46,8 @@ def bokeh():
     test_span = Span(location=2.5, dimension='height', line_color='blue', line_width=1, line_dash='dashed')
     fig.add_layout(test_span)
 
+    fig.legend.click_policy = "mute"
+
     js_resources = INLINE.render_js()
     css_resources = INLINE.render_css()
 
