@@ -14,8 +14,8 @@ classifiers = [
 ]
 dynamic = ["version"]
 dependencies = [
-    "deprecated",
-    "ipykernel", # Support for Jupyter notebooks
+    "flask",
+    "bokeh",
 ]
 
 # On a mac, install optional dependencies with `pip install '.[dev]'` (include the single quotes)
