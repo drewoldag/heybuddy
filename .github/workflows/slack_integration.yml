@@ -30,7 +30,7 @@ jobs:
             			"type": "section",
             			"text": {
             				"type": "mrkdwn",
-            				"text": "GitHub Action build result: *${{ job.status }}*"
+            				"text": "GitHub Action build result: *${{ job.status }}* :${{ job.status }}:"
             			}
             		},
             		{
