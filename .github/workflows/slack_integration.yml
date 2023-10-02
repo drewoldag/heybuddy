@@ -24,14 +24,14 @@ jobs:
             			}
             		},
             		{
-            			"type": "divider"
-            		},
-            		{
             			"type": "section",
             			"text": {
             				"type": "mrkdwn",
-            				"text": "GitHub Action build result: *${{ job.status }}* :${{ job.status }}: :failure: :cancelled: :success:"
+            				"text": "Smoke test result: *${{ job.status }}* :${{ job.status }}:"
             			}
+            		},
+                {
+            			"type": "divider"
             		},
             		{
             			"type": "section",
