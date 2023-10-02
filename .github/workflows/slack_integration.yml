@@ -2,7 +2,7 @@ name: CI for Template
 
 on:
   workflow_dispatch:
-${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
 
 jobs:
   tests:
