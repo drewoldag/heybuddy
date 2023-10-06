@@ -7,11 +7,13 @@ on:
 jobs:
   tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        return-values: [1, 0]
+        
     steps:
       - name: Always fail
-        run: exit 1
-      - name: Always pass
-        run: exit 0
+        run: exit ${{ matrix.return-values }}
       - name: Send custom JSON data to Slack workflow
         if: ${{ failure() }}
         id: slack
