@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Always fail
         run: exit ${{ matrix.return-values }}
+      - name: Always pass
+        run: exit 0
       - name: Send custom JSON data to Slack workflow
         if: ${{ failure() }}
         id: slack
