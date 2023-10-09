@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: 'your title'
-labels: 'bug'
-assignees: 'drewoldag'
+title: your title
+labels: bug
+assignees: drewoldag
 
 ---
 
