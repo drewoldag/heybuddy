@@ -1,5 +1,5 @@
 ---
-name: 2 Blank issue
+name: General
 about: Just an empty issue
 title: ''
 labels: ''
