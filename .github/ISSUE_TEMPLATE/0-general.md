@@ -1,6 +1,6 @@
 ---
 name: General
-about: Just an empty issue
+about: Quickly create a general issue
 title: ''
 labels: ''
 assignees: ''
