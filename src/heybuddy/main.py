@@ -38,7 +38,7 @@ def bokeh():
     )
 
     fig.circle(x=[1,2,3,4,5],
-        y=[1.0, 0.8, 0.65, 0.5, 0.45], color='red', legend_label='Metric 2')
+        y=[1.0, 0.8, 0.65, 0.5, 0.4], color='red', legend_label='Metric 2')
 
     error_test = new_whisker(base=3, upper=0.7, lower=0.6)
     fig.add_layout(error_test)
