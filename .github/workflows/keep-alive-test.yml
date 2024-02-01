@@ -13,4 +13,4 @@ jobs:
       - uses: gautamkrishnar/keepalive-workflow@v1
         with:
           commit_message: Empty commit to keep the repo alive
-          time_elapsed: 0.00001
+          time_elapsed: 0
